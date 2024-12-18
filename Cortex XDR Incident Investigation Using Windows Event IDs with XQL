@@ -1,0 +1,4 @@
+config case_sensitive = false 
+ | preset = network_story
+ | fields action_network_success , action_local_ip , action_remote_ip , action_remote_port, event_id
+ | filter event_id in ("MjAyNjIxMjk1OTY5MTYxNTI2MA==") // Provide Event ID
